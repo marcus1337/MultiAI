@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  ExpDLL.cpp
+c:\users\marcus\source\repos\expdll\expdll\expdll.cpp(20): warning C4273: 'fibonacci_init': inconsistent dll linkage
+  c:\users\marcus\source\repos\expdll\expdll\explib.h(22): note: see previous definition of 'fibonacci_init'
+c:\users\marcus\source\repos\expdll\expdll\expdll.cpp(29): warning C4273: 'fibonacci_next': inconsistent dll linkage
+  c:\users\marcus\source\repos\expdll\expdll\explib.h(28): note: see previous definition of 'fibonacci_next'
+c:\users\marcus\source\repos\expdll\expdll\expdll.cpp(50): warning C4273: 'fibonacci_current': inconsistent dll linkage
+  c:\users\marcus\source\repos\expdll\expdll\explib.h(31): note: see previous definition of 'fibonacci_current'
+c:\users\marcus\source\repos\expdll\expdll\expdll.cpp(56): warning C4273: 'fibonacci_index': inconsistent dll linkage
+  c:\users\marcus\source\repos\expdll\expdll\explib.h(34): note: see previous definition of 'fibonacci_index'
+  Generating Code...
+     Creating library C:\Users\Marcus\source\repos\ExpDLL\Debug\ExpDLL.lib and object C:\Users\Marcus\source\repos\ExpDLL\Debug\ExpDLL.exp
+  ExpDLL.vcxproj -> C:\Users\Marcus\source\repos\ExpDLL\Debug\ExpDLL.dll

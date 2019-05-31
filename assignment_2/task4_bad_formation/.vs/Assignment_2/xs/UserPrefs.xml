@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5BB32B74-AA7A-BFEF-FF6C-9B3864DD1D65}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scrips/CarAI2.cs">
+    <Files>
+      <File FileName="Assets/Scrips/CarAI.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scrips/CarAI2.cs" Line="10" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

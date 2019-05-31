@@ -1,0 +1,9 @@
+1. Short range multi agent search
+
+2. Long range multi agent search
+
+3. Vehicle Routing Problem (VRP)
+
+4. Formation Sweep
+
+5. Shooter coordination

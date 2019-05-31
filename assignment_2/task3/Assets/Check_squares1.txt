@@ -1,0 +1,88 @@
+width: 87 height: 87
+                                                                                       
+                                                                                       
+                                                                                       
+        MMMMMMM   MMMMMMM   MMMMMMM        MMMMMMM        MMMMMMMMMMMMMMMMMMMMMM       
+        MMMMMMM   MMMMMMM   MMMMMMM        MMMMMMM        MMMMMMMMMMMMMMMMMMMMMM       
+        MMMMMMM   MMMMMMM   MMMMMMM        MMMMMMM        MMMMMMMMMMMMMMMMMMMMMM       
+        MMMMMMM   MMMMMMM   MMMMMMM        MMMMMMM        MMMMMMMMMMMMMMMMMMMMMM       
+        MMMMMMM   MMMMMMM   MMMMMMM        MMMMMMM        MMMMMMMMMMMMMMMMMMMMMM       
+        MMMMMMM   MMMMMMM   MMMMMMM        MMMMMMM        MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+        MMMMMMM   MMMMMMM   MMMMMMM        MMMMMMM        MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                                           MMMMMMM                       MMMMMMMMMMMMMM
+                                           MMMMMMM                       MMMMMMMMMMMMMM
+                                           MMMMMMM                       MMMMMMMMMMMMMM
+                  MMMMMMM                  MMMMMMM                       MMMMMMMMMMMMMM
+                  MMMMMMM                  MMMMMMM                       MMMMMMMMMMMMMM
+                  MMMMMMM                  MMMMMMM                                     
+                  MMMMMMM                  MMMMMMM                                     
+                  MMMMMMM                  MMMMMMM                                     
+                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMMMMMMMMMMMMMM
+                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMMMMMMMMMMMMMM
+                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMMMMMMMMMMMMMM
+                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMMMMMMMMMMMMMM
+                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMMMMMMMMMMMMMM
+                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMMMMMMMMMMMMMM
+                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMMMMMMMMMMMMMM
+                  MMMMMMM             MMMMMMM                  MMMMMMM                 
+                  MMMMMMM             MMMMMMM                  MMMMMMM                 
+                  MMMMMMM             MMMMMMM                  MMMMMMM                 
+        MMMMMMMMMMMMMMMMM             MMMMMMM                  MMMMMMMMMMMMMMMMM       
+        MMMMMMMMMMMMMMMMM             MMMMMMM                  MMMMMMMMMMMMMMMMM       
+        MMMMMMMMMMMMMMMMM             MMMMMMM                  MMMMMMMMMMMMMMMMM       
+        MMMMMMMMMMMMMMMMM             MMMMMMM                  MMMMMMMMMMMMMMMMM       
+        MMMMMMMMMMMMMMMMM             MMMMMMM                  MMMMMMMMMMMMMMMMM       
+        MMMMMMMMMMMMMMMMM             MMMMMMM                  MMMMMMMMMMMMMMMMM       
+        MMMMMMMMMMMMMMMMM             MMMMMMM                  MMMMMMMMMMMMMMMMM       
+                                      MMMMMMM                  MMMMMMM                 
+                                      MMMMMMM                  MMMMMMM                 
+                                      MMMMMMM                  MMMMMMM                 
+                                      MMMMMMM                  MMMMMMM   MMMMMMM       
+                                      MMMMMMM                  MMMMMMM   MMMMMMM       
+                                      MMMMMMM                  MMMMMMM   MMMMMMM       
+                                      MMMMMMM                  MMMMMMM   MMMMMMM       
+                                      MMMMMMM                  MMMMMMM   MMMMMMM       
+                                      MMMMMMM                  MMMMMMM   MMMMMMM       
+                                      MMMMMMM                  MMMMMMM   MMMMMMM       
+                                      MMMMMMM                                          
+                                      MMMMMMM                                          
+                                      MMMMMMM                                          
+                                      MMMMMMM                                          
+                                      MMMMMMM                                          
+                                                                                       
+                                                                                       
+                                                                                       
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMM                      
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMM                      
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMM                      
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMM                      
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMM                      
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMM                      
+   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM             MMMMMMMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+                                 MMMMMMM                  MMMMMMM                      
+   MMMMMMM   MMMMMMM   MMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMMM                      
+   MMMMMMM   MMMMMMM   MMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMMM                      
+   MMMMMMM   MMMMMMM   MMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMMM                      
+   MMMMMMM   MMMMMMM   MMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMMM                      
+   MMMMMMM   MMMMMMM   MMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMMM                      
+   MMMMMMM   MMMMMMM   MMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMMM        MMMMMMM       
+   MMMMMMM   MMMMMMM   MMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMMM        MMMMMMM       
+   MMMMMMM   MMMMMMM                                                     MMMMMMM       
+   MMMMMMM   MMMMMMM                                                     MMMMMMM       
+   MMMMMMM   MMMMMMM                                                     MMMMMMM       
+   MMMMMMM   MMMMMMM                            MMMMMMM        MMMMMMMMMMMMMMMMM       
+   MMMMMMM   MMMMMMM                            MMMMMMM        MMMMMMMMMMMMMMMMM       
+   MMMMMMM   MMMMMMM                            MMMMMMM        MMMMMMMMMMMMMMMMM       
+   MMMMMMM   MMMMMMM                            MMMMMMM        MMMMMMMMMMMMMMMMM       
+   MMMMMMM   MMMMMMM                            MMMMMMM        MMMMMMMMMMMMMMMMM       
+   MMMMMMM   MMMMMMM                            MMMMMMM        MMMMMMMMMMMMMMMMM       
+   MMMMMMM   MMMMMMM                            MMMMMMM        MMMMMMMMMMMMMMMMM       
+   MMMMMMM                                      MMMMMMM                  MMMMMMM       
+   MMMMMMM                                      MMMMMMM                  MMMMMMM       

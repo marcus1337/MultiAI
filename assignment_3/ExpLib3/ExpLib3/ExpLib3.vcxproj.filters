@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NETFILES_H">
+      <UniqueIdentifier>{49e57e90-9a8e-4aa3-8b34-50585774ecf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETFILES_CPP">
+      <UniqueIdentifier>{4214d164-c2a7-4dfe-a17b-6d3cb042df78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpLib3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\Coordinator.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\Genome.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\HelperFuncs.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\Innovator.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\Mutate.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\NEAT.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\Node.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\Speciator.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+    <ClInclude Include="netfiles\IOstuff.h">
+      <Filter>Header Files\NETFILES_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpLib3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netfiles\HelperFuncs.cpp">
+      <Filter>Source Files\NETFILES_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="netfiles\Mutate.cpp">
+      <Filter>Source Files\NETFILES_CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

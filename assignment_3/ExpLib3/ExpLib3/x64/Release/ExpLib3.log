@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(243): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(330): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(334): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  dllmain.cpp
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(243): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(330): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(334): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  ExpLib3.cpp
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(243): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(330): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\marcus\source\repos\explib3\explib3\netfiles\speciator.h(334): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  HelperFuncs.cpp
+c:\users\marcus\source\repos\explib3\explib3\netfiles\helperfuncs.cpp(11): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  Mutate.cpp
+c:\users\marcus\source\repos\explib3\explib3\netfiles\mutate.cpp(71): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     Creating library C:\Users\Marcus\source\repos\ExpLib3\x64\Release\ExpLib3.lib and object C:\Users\Marcus\source\repos\ExpLib3\x64\Release\ExpLib3.exp
+  Generating code
+  All 1962 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ExpLib3.vcxproj -> C:\Users\Marcus\source\repos\ExpLib3\x64\Release\ExpLib3.dll
