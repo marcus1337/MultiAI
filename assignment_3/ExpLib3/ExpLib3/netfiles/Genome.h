@@ -22,7 +22,7 @@ public:
     }
 
     float weight;
-    int childNodes = 0;
+    int childNodes = 0; //How many times a gene has been split into two new genes + node.
 
     Genome() : id(-1) {}
 

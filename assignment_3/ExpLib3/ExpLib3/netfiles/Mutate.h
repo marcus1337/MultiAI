@@ -7,9 +7,8 @@ class Mutate {
 
 public:
 
-    static float mutationrate;
+    static float mutationrate, mutationrateNewNode;
     //static constexpr float mutationrate = 0.99f;
-
     //static constexpr float pointrate = 0.01f;
 
     static bool shouldMutate(float chance);

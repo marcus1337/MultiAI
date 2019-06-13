@@ -8,7 +8,6 @@ class Innovator {
     typedef std::tuple<int,int,int> par3;
 
     Innovator() : innovNum(0), innovNodeNum(0) {}
-    int innovNum, innovNodeNum;
 
     std::map<par, int> takenIDs;
     std::map<par3, int> takenMiddleIDs;
@@ -21,6 +20,8 @@ class Innovator {
     }
 
 public:
+    int innovNum, innovNodeNum;
+
     void reset() {
         innovNum = innovNodeNum = 0;
         takenIDs.clear();

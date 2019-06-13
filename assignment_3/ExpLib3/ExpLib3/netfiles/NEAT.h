@@ -11,6 +11,8 @@
 #include <functional>
 #include <list>
 
+#include <math.h>
+
 
 class NEAT {
 public:
@@ -28,8 +30,16 @@ public:
 
     void updateGene(Genome updatedGene) {
         Node& nowNode = nodes[updatedGene.getFrom()];
-        auto found = nowNode.genomes.find(updatedGene);
+        //auto found = nowNode.genomes.find(updatedGene); //not used?
         nowNode.genomes.insert(updatedGene);
+    }
+
+    float sigmoidNN(float value) {
+        return (1.0f / (1.0f + exp2f(-value)));
+    }
+
+    float reLu(float value) {
+        return std::max<float>(0.0f, value);
     }
 
     void topSortCalc(float* inputs) {
@@ -48,12 +58,16 @@ public:
                 if (!genome.enabled)
                     continue;
                 int to = genome.getTo();
+                if (nodes[nowID].getType() != Node::INPUT) { //Activation functions, hidden layers
+                    nodes[nowID].value = reLu(nodes[nowID].value);
+                }
                 nodes[to].value += nodes[nowID].value*genome.weight;
             }
         }
 
         for (int i = numIn; i < numIn + numOut; i++) {
             outputs[i - numIn] = nodes[i].value;
+            outputs[i - numIn] = sigmoidNN(outputs[i - numIn]);
         }
         reset();
     }
@@ -97,6 +111,7 @@ public:
             bool enabled;
             float weight;
             stream >> from >> to >> enabled >> weight >> childnodes;
+
             if (!Helper::mapContains<int, Node>(nodes, from)) {
                 nodes[from] = Node(from);
             }
@@ -104,13 +119,7 @@ public:
                 nodes[to] = Node(to);
             }
 
-            if (nodes[from].getType() == Node::INPUT && nodes[to].getType() == Node::OUTPUT) {
-                Genome genome(from, to, enabled, weight, childnodes);
-                updateGene(genome);
-            }
-            else {
-                addGene(from, to, enabled, weight, childnodes);
-            }
+            addGene(from, to, enabled, weight, childnodes);
 
         }
 

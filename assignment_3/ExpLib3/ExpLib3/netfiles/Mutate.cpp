@@ -7,6 +7,7 @@
 typedef std::pair<int, int> par;
 
 float Mutate::mutationrate = 0.02f;
+float Mutate::mutationrateNewNode = 0.01;
 
 bool Mutate::shouldMutate(float chance) {
     float r = Helper::randf(0.f, 100.f);
@@ -65,7 +66,7 @@ void Mutate::linkMutate(NEAT& neat) {
 void Mutate::nodeMutate(NEAT& neat) {
 
     for (size_t i = 0; i < neat.gencopies.size(); i++) {
-        if (!shouldMutate(mutationrate))
+        if (!shouldMutate(mutationrateNewNode))
             continue;
 
         int randEdge = i;
@@ -99,16 +100,16 @@ void Mutate::pointMutate(NEAT& neat) {
             continue;
 
         if (shouldMutate(0.07f)) {
-            neat.gencopies[i].weight = Helper::randf(-2.f, 2.f);
+            neat.gencopies[i].weight = Helper::randf(-1.f, 1.f);
         }
         else {
 
             neat.gencopies[i].weight += Helper::randf(-0.3f, 0.3f);
 
-            if (neat.gencopies[i].weight > 2.f)
-                neat.gencopies[i].weight = 2.f;
-            if (neat.gencopies[i].weight < -2.f)
-                neat.gencopies[i].weight = -2.f;
+            if (neat.gencopies[i].weight > 1.f)
+                neat.gencopies[i].weight = 1.f;
+            if (neat.gencopies[i].weight < -1.f)
+                neat.gencopies[i].weight = -1.f;
         }
 
         neat.updateGene(neat.gencopies[i]);

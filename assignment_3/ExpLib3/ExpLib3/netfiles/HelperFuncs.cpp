@@ -79,8 +79,7 @@ void Helper::topologicalSortUtil(int v, std::vector<bool>& visited, std::stack<i
 
 std::stack<int> Helper::topSort(NEAT& neat) {
     std::stack<int> topstack;
-
-    std::vector<bool> visited(neat.nodes.size()*100 +neat.gencopies.size()*20+8000, false);
+    std::vector<bool> visited(Innovator::getInstance().innovNodeNum+1, false);
 
     for (const auto& n : neat.nodes)
     {
@@ -89,6 +88,5 @@ std::stack<int> Helper::topSort(NEAT& neat) {
             topologicalSortUtil(id, visited, topstack, neat);
         }
     }
-
     return topstack;
 }
