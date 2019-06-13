@@ -65,13 +65,10 @@ public:
         specieNum = 0;
         pool.clear();
         children.clear();
-        Specie spec(specieNum);
-        spec.topFitness = neats[0].fitness;
-        specieNum++;
-        spec.neats.push_back(&neats[0]);
-        pool.push_back(spec);
 
-        for (size_t i = 1; i < neats.size(); i++) {
+        for (size_t i = 0; i < neats.size(); i++) {
+            if (neats[i].gencopies.empty()) //bug-fix, unknown why this sometimes becomes empty.
+                continue;
             addToSpecies(neats[i]);
         }
 
